@@ -33,16 +33,16 @@ const starts = async (gura = new WAConnection()) => {
 	}), 'cyan'))
     console.log(bgcolor(' WhatsApp BOT', 'red'))	
 	console.log(biocolor(`==========< Bio >==========`))	
-	console.log(biocolor(`=>  Bot Creator By Akira`))
-	console.log(biocolor(`=>  Wa : 087705048235`))
-	console.log(biocolor(`=>  Gt : Kirbotz`))
-	console.log(biocolor(`=>  Yt : KirBotz×`))
+	console.log(biocolor(`=>  Bot Creator By ArilStore`))
+	console.log(biocolor(`=>  Wa : 0881024358619`))
+	console.log(biocolor(`=>  Gt : Aril282`))
+	console.log(biocolor(`=>  Yt : ARIL STORE`))
 	console.log(biocolor(`=>  New Base`))		
 	console.log(biocolor(`===============>`))
 	console.log(biocolor(` `))					
-	console.log(bgcolor(`❗Subrek YT : KirBotz×`, 'red'))
+	console.log(bgcolor(`❗Subrek YT : ArilStore`, 'red'))
 	console.log(color('[EXEC]', 'cyan'), color('Owner Aktif Sekarang!..', 'green'))
-	gura.browserDescription = ["KirBotz", "Firefox", "3.0.0"];
+	gura.browserDescription = ["ArilBotz", "Firefox", "3.0.0"];
 
 	gura.on('qr', () => {
 		console.log(color('[', 'white'), color('!', 'red'), color(']', 'white'), color('Scan qr Nya Bro....'))
