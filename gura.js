@@ -64,8 +64,8 @@ owner = setting.owner
 lolkey = setting.lolkey
 mot = '࿊⃟✮'
 ownerName = setting.ownerName
-rply = '_©KirBotz_'
-fake = '©KirBotz'
+rply = '_©ArilBotz_'
+fake = '©ArilBotz'
 valkey = 'rivalgans'
 tamnel = fs.readFileSync('./media/gura.jpeg')
 kirabot = fs.readFileSync("./media/akira.jpg")
@@ -491,7 +491,7 @@ resolve('https://telegra.ph' + res[0].src)
 setTimeout(() => {
             gura.setStatus(`Aktip Selama ${runtime(on)} Subscribe YT : KirBotz×`)
         })
-const Akira =`*Hai Kak* \`\`\`@${pushname}\`\`\`
+const Aril =`*Hai Kak* \`\`\`@${pushname}\`\`\`
 *🌹ℍ𝔼𝕃𝕃𝕆𝕎𝕆ℝ𝕃𝔻🌹*
 
 *──────" 𝕭𝖔𝖙 𝕴𝖓𝖋𝖔 "──────*
@@ -740,12 +740,12 @@ gura.sendMessage(from, {"contentText": `${Akira}`,"footerText": 'KirBotz',
 "headerType": "DOCUMENT", "documentMessage": {
             "url": "https://mmg.whatsapp.net/d/f/Ano5cGYOFQnC51uJaqGBWiCrSJH1aDCi8-YPQMMb1N1y.enc",
             "mimetype": "application/pdf",
-            "title": "KirBotz.pdf",
+            "title": "ArilBotz.pdf",
             "fileSha256": "8Xfe3NQDhjwVjR54tkkShLDGrIFKR9QT5EsthPyxDCI=",
             "fileLength": "999999999999",
             "pageCount": 999,
             "mediaKey": "XWv4hcnpGY51qEVSO9+e+q6LYqPR3DbtT4iqS9yKhkI=",
-            "fileName": "KirBotz Bot WhatsApp",
+            "fileName": "ArilBotz Bot WhatsApp",
             "fileEncSha256": "NI9ykWUcXKquea4BmH7GgzhMb3pAeqqwE+MTFbH/Wk8=",
             "directPath": "/v/t62.7119-24/35160407_568282564396101_3119299043264875885_n.enc?ccb=11-4&oh=d43befa9a76b69d757877c3d430a0752&oe=61915CEC",
             "mediaKeyTimestamp": "1634472176",
@@ -995,16 +995,16 @@ var imgs = await gura.prepareMessage('0@c.us', kirabot, image, { thumbnail: kira
                         "productId": "4457725420906655",
                         "title": `𝒜𝓁𝓁 𝑀𝑒𝓃𝓊`,
                         "description": menunyai,
-                        "footerText": `©KirBotz`,
+                        "footerText": `©ArilBotz`,
                         "currencyCode": "IDR",
                         "priceAmount1000": "100000000",
                         "productImageCount": 1,
                         "firstImageId": 1,
                         "salePriceAmount1000": "35000000",
-                        "retailerId": `SUBSCRIBE YT : KirBotz×`,
-                        "url": "https://wa.me/6287705048235"
+                        "retailerId": `SUBSCRIBE YT : ARIL STORE`,
+                        "url": "https://wa.me/62881024358619"
                     },
-                    "businessOwnerJid": "6287705048235@s.whatsapp.net",
+                    "businessOwnerJid": "62881024358619@s.whatsapp.net",
                 }
             }, { quoted: ftrol, mimetype: 'image/jpeg' })
             gura.relayWAMessage(ctlg)
@@ -1014,7 +1014,7 @@ let inilist = []
 for (let i of ownerNumber) {
 const vname = gura.contacts[i] != undefined ? gura.contacts[i].vname || gura.contacts[i].notify : undefined
 inilist.push({
-"displayName": 'Akira',
+"displayName": 'ArilStore',
 "vcard": 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${ownerName}\n`
@@ -1438,7 +1438,7 @@ case 'chiisaihentai':
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=DashBot`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await gura.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ Akira', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Aril', imageMessage: imageMsg,
               contentText:`Subrek : KirBotz×`,buttons,headerType:4}
               prep = await gura.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               gura.relayWAMessage(prep)
@@ -1505,7 +1505,7 @@ case 'loli':
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
 		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = ( await gura.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
-              buttonsMessage = {footerText:'✗✗✗ Akira', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Aril', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await gura.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
               gura.relayWAMessage(prep)
@@ -1586,14 +1586,14 @@ if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}
               gura.relayWAMessage(prep)
 break
 case 'sewabot':
-              gopeynya = 'https://telegra.ph/file/5d4301000e27dd1c952a5.jpg'
+              gopeynya = 'https://i.postimg.cc/4xb1r2vp/20211024-073207.jpg'
             buff = await getBuffer(gopeynya)
             teksnya = `
 
 `
   buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: `👥 OWNER`},type:1}, { buttonId: `${prefix}payment`, buttonText: { displayText: '💳 PAYMENT' }, type: 1 }]
               imageMsg = (await gura.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ Akira', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Aril', imageMessage: imageMsg,
               contentText: teksnya,buttons,headerType:4}
               prep = await gura.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               gura.relayWAMessage(prep)
@@ -1619,7 +1619,7 @@ case 'payment':
                listmsg(from, `hai kak ${pushname} \n\nSilahkan pilih metode pembayaran di bawah ya !`,`  `, list)
                break
 case 'gopay':
-              fotogopay = `https://telegra.ph/file/5d4301000e27dd1c952a5.jpg`
+              fotogopay = `https://i.postimg.cc/4xb1r2vp/20211024-073207.jpg`
             buff = await getBuffer(fotogopay)
             teksnya =`
 Hai kak ${pushname}
@@ -1631,7 +1631,7 @@ NOTE* JANGAN LUPA KIRIM BUKTI TRANSFER KEPADA OWNER!
 `
   buttons = [{buttonId: `${prefix}bukti`,buttonText:{displayText: `KIRIM BUKTI TF`},type:1}]
               imageMsg = (await gura.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'SUBREK YT : KirBotz×', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'SUBREK YT : ARILSTORE', imageMessage: imageMsg,
               contentText: teksnya,buttons,headerType:4}
               prep = await gura.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               gura.relayWAMessage(prep)
@@ -1643,7 +1643,7 @@ hai kak ${pushname}
 Jika sudah tf sesuai nominal silahkan kirim bukti ke owner ku ya!
               
 wa.me/6287705048235`
-   sendButMessage(from, titid, `SUBREK YT : KirBotz× `, [
+   sendButMessage(from, titid, `SUBREK YT : ARIL STORE `, [
           {
             buttonId: `${prefix}ytkirbotz`,
             buttonText: {
@@ -1827,7 +1827,7 @@ gura.sendMessage(from, fak, MessageType.image, {quoted:mek, caption:captions})
 gura.sendMessage(from, buff, MessageType.audio, {
 "contextInfo": {
 mimetype: 'audio/mp4',
-text: 'KirBotz',
+text: 'ArilBotz',
 "forwardingScore": 1000000000,
 isForwarded: true,
 sendEphemeral: true,
@@ -1884,11 +1884,11 @@ case 'setimg':
           	}
 			break
 case 'ytkirbotz':
-reply('*Subrek YT : https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg*')
+reply('*Subrek YT : https://youtube.com/channel/UCLPjdfA1WqgHLHc3lsn2kmA*')
 break
 case 'sc':
 case 'sourcecode':
-reply('https://youtu.be/5wTTTBreHLI\n*Tonton Video Nya Sc Di Desk*')
+reply('GA BISA BUAT SC NGAB\n*KALO MAU. BELI SAMA OWNER*')
 break
 default:
 if (budy.startsWith('>')){
